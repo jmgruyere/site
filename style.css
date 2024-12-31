@@ -11,12 +11,6 @@ header {
     height: 4rem;
     margin: 0 0 0 0;
 }
-.playwrite-au-qld {
-  font-family: "Playwrite AU QLD", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 nav {
     display: flex;
     align-items: center;
