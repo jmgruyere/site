@@ -37,7 +37,7 @@ main {
 }
 @font-face {
     font-family: "Quick Draw";
-    src: url("TAYQuickDraw.woff") format("woff");
+    src: url("fonts/TAYQuickDraw.woff") format("woff");
 }
 .profile-picture {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
