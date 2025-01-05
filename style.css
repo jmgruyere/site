@@ -1,5 +1,5 @@
 body {
-    background-color: olive;
+    background-color: #D64933;
 }
 
 header {
@@ -31,7 +31,7 @@ main {
     background-color: wheat;
     display: grid;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 1rem;
+    margin: 0;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -39,10 +39,16 @@ main {
     font-family: "Quick Draw";
     src: url("TAYQuickDraw.woff") format("woff");
 }
+.profile-picture {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    max-width: 150px;
+    text-align: center;
+}
 h1 {
+    color: #D64933;
     width: 100%;
-    margin: 2rem 0 0rem 0;
-    padding: 2rem 0 0rem 0;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
     font-family: "Quick Draw", serif;
     font-optical-sizing: auto;
     font-size: 3rem;
@@ -60,6 +66,13 @@ p {
     margin: 0 0 2rem 0;
     text-align: justify;
     padding: 0 1rem 0 1rem;
+}
+a {
+    color: #D64933; 
+    text-decoration: none;   
+}
+a:hover {
+    text-decoration: underline;
 }
 footer {
     color: wheat;
