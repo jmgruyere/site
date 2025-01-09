@@ -39,6 +39,11 @@ main {
     padding: 1rem;
     border-radius: 10px;
 }
+.welcome-container {
+    margin: 0 0 2rem 0;
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+}
 .main-container {
     padding: 0 3rem 0 3rem;
 }
@@ -66,15 +71,25 @@ h1 {
     line-height: 3.5rem;
     text-align: center;
 }
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+hr::after {
+    background: var(--main-paper-color);
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }
 .location-text {
     font-size: medium;
     margin: 0;
     padding: 0;
-}
-p {
-    margin: 0 0 2rem 0;
-    text-align: justify;
-    padding: 0 1rem 0 1rem;
 }
 .directory-container {
     display: grid;
