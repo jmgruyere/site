@@ -6,19 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts embed start -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD&family=Playwrite+FR+Moderne&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- Google Fonts embed end -->
     <!-- Google Icons embed start -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=music_note" />
     <!-- Google Icons embed end -->
 </head>
-<body>
-    <!--
-    oh hey there :)
-    -->                    
+<body>                  
     <header>
     <nav>
         <div>
@@ -69,13 +61,16 @@
             </p>
         </section>
         <hr/>
-        <section class="index-container">
-            <h3>Basics</h3>
-            <ul>
-                <li><a href="/coming-soon">About</a></li>
-                <li><a href="/coming-soon">Contact info</a></li>
-            </ul>
-            <h3 id="code-project-list">Code</h3>
+        <section class="directory-container">
+            <div id="basics">
+                <h3>Basics</h3>
+                <ul>
+                    <li><a href="/coming-soon">About</a></li>
+                    <li><a href="/coming-soon">Contact info</a></li>
+                </ul>
+            </div>
+            <div id="code">
+                <h3>Code</h3>
                 <ul>
                     <li><a href="https://github.com/johngreercodes/parks-party" target="_blank">Parks Party</a>: Find National Parks near you.</li>
                     <li><a href="https://github.com/johngreercodes/how-long-to-read" target="_blank">How Long to Read</a>: Estimate how long your next book will take to read.</li>
@@ -92,17 +87,23 @@
                     <li><a href="/coming-soon">Attentionator</a>: Sit with an image for five minutes. Built with ???.</li>
                     <li><a href="/coming-soon">Oscars Mayor Lister</a>: Watch Best Picture Nominees. Built with Astro.</li>
                 </ul>
-            <h3>Music</h3>
+            </div>
+            <div id="music">
+                <h3>Music</h3>
                 <ul>
                     <li><a href="https://greerplaysguitar.bandcamp.com/album/vessels">Vessels</a>: Songs on Acoustic Guitar in Open C tuning.</li>
                     <li><a href="https://greerplaysguitar.bandcamp.com/album/morning-pages">Morning Pages</a>: Acoustic song sketches.</li>
                     <li><a href="https://greerplaysguitar.bandcamp.com/album/daily-doodles">Daily Doodles</a>: Short instrumentals.</li>
                 </ul>
-            <h3>Visual Art</h3>
-                <ul>
-                    <li><a href="/coming-soon">Small Circles</a>: composite images</li>
-                    <li><a href="/coming-soon">Local Flora 1</a>: nature of the neighborhood</li>
-                </ul>
+            </div>
+            <div id="art">
+                <h3>Visual Art</h3>
+                    <ul>
+                        <li><a href="/coming-soon">Small Circles</a>: composite images</li>
+                        <li><a href="/coming-soon">Local Flora 1</a>: nature of the neighborhood</li>
+                    </ul>
+            </div>
+            <div id="blog">
             <h3>Blog posts</h3>
                 <ul>
                     <li><a href="/coming-soon">Writin' Wilderin'</a>: Development of a song for my next record</li>
@@ -111,20 +112,21 @@
                     <li><a href="/coming-soon">Tone Profiles - AD9</a>: effects pedal presets</li>
                     <li><a href="/coming-soon">Onion Assurance</a>: Testing with layers</li>
                 </ul>
-            <h3>Short stories</h3>
-                <ul>
-                    <li><a href="/coming-soon">Coming soon</a></li>
-                </ul>
+            </div>
+            <div id="short-stories">
+                <h3>Short stories</h3>
+                    <ul>
+                        <li><a href="/coming-soon">Coming soon</a></li>
+                    </ul>
+            </div>
         </section>
     </section>
     </main>
-
     <footer>
         This website does not track your activity. It aspires to the speed and privacy of the printed page.
         <br/>
         <br/>
         Built with HTML and CSS.
     </footer>
-
 </body>
 </html>
